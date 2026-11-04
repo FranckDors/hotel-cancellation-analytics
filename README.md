@@ -8,8 +8,6 @@ A personal portfolio project using a public dataset (not employer work). It asks
 **Live dashboard:** https://your-app-link-here
 -->
 
-![Dashboard overview](docs/screenshots/1_overview.png)
-
 ## Key findings
 
 Overall, 37.1% of the 119,209 cleaned bookings were cancelled: 41.8% at the City Hotel and 27.8% at the Resort Hotel.
