@@ -14,7 +14,7 @@ SELECT
         WHEN lead_time <= 180 THEN '91-180 days'
         ELSE '181+ days'
     END AS lead_time_bucket,
-    COALESCE(deposit_type = 'No Deposit' AND lead_time > 100, FALSE)           AS is_high_risk_booking,
+    COALESCE(lead_time > 180, FALSE)                                           AS is_long_lead_booking,
     COALESCE(is_repeated_guest = 1 AND previous_cancellations = 0, FALSE)      AS is_repeat_guest_safe,
     COALESCE(previous_cancellations > 0, FALSE)                                AS has_prior_cancellation
 FROM staging.bookings_clean;
