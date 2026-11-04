@@ -1,0 +1,24 @@
+layer,check_name,severity,status,rows_checked,rows_failed,pct_failed,description
+raw,agent_missing,warn,FOUND,119390,16340,13.686,No agent (direct booking)
+raw,bad_month_name,error,PASS,119390,0,0.0,Month name not recognised
+raw,children_missing,warn,FOUND,119390,4,0.003,Children count missing
+raw,country_missing,warn,FOUND,119390,488,0.409,Country missing
+raw,exact_duplicate_rows,warn,FOUND,119390,31994,26.798,"Identical rows (kept, since they may be separate real bookings)"
+raw,invalid_cancel_flag,error,PASS,119390,0,0.0,is_canceled is not 0 or 1
+raw,missing_lead_time,error,PASS,119390,0,0.0,Lead time is blank
+raw,negative_adr,error,FOUND,119390,1,0.001,Negative average daily rate
+raw,negative_lead_time,error,PASS,119390,0,0.0,Lead time below zero
+raw,zero_guests,error,FOUND,119390,180,0.151,Booking with zero guests
+raw,zero_nights,warn,FOUND,119390,715,0.599,Zero-night stay (could be day-use)
+clean,duplicate_booking_id,error,PASS,119209,0,0.0,booking_id not unique
+clean,invalid_cancel_flag,error,PASS,119209,0,0.0,is_canceled is not 0 or 1
+clean,missing_key_fields,error,PASS,119209,0,0.0,Key field missing
+clean,negative_adr,error,PASS,119209,0,0.0,Negative average daily rate
+clean,negative_lead_time,error,PASS,119209,0,0.0,Lead time below zero
+clean,zero_guests,error,PASS,119209,0,0.0,Booking with zero guests
+clean,zero_nights,warn,WARN,119209,645,0.541,Zero-night stay (kept)
+reconciliation,raw_to_typed_rowcount,error,PASS,119390,0,0.0,Typing step must not add or lose rows
+reconciliation,typed_to_clean_rowcount,error,PASS,119390,0,0.0,Rows removed must equal rows flagged as bad
+mart,agent_bookings_reconcile,error,PASS,119209,0,0.0,Agent bookings plus direct bookings must equal all clean bookings
+mart,agent_cancel_rate_in_range,error,PASS,333,0,0.0,Cancel rate must be between 0 and 1
+mart,clean_to_mart_rowcount,error,PASS,119209,0,0.0,Mart booking table must have the same rows as clean

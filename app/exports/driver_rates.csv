@@ -1,0 +1,87 @@
+driver,category,year,bookings,cancel_pct
+lead_time_bucket,31-90 days,2015,6125,32.0
+lead_time_bucket,91-180 days,2016,12235,43.5
+lead_time_bucket,8-30 days,2016,8839,27.8
+lead_time_bucket,0-7 days,2017,5776,8.7
+lead_time_bucket,181+ days,2017,8402,51.5
+lead_time_bucket,181+ days,2015,4510,74.3
+lead_time_bucket,0-7 days,2015,4079,10.4
+lead_time_bucket,31-90 days,2017,9403,42.3
+lead_time_bucket,0-7 days,2016,9780,9.8
+lead_time_bucket,181+ days,2016,11768,54.4
+lead_time_bucket,91-180 days,2017,10687,46.6
+lead_time_bucket,8-30 days,2017,6351,30.6
+lead_time_bucket,8-30 days,2015,3755,23.6
+lead_time_bucket,91-180 days,2015,3498,43.4
+lead_time_bucket,31-90 days,2016,14001,37.1
+lead_time_bucket,8-30 days,All,18945,27.9
+lead_time_bucket,31-90 days,All,29529,37.7
+lead_time_bucket,91-180 days,All,26420,44.7
+lead_time_bucket,181+ days,All,24680,57.0
+lead_time_bucket,0-7 days,All,19635,9.6
+distribution_channel,Direct,2016,6782,17.2
+distribution_channel,TA/TO,2017,33572,42.7
+distribution_channel,Corporate,2016,3284,18.3
+distribution_channel,Corporate,2017,1909,25.8
+distribution_channel,Direct,2015,2778,18.0
+distribution_channel,Direct,2017,5050,17.6
+distribution_channel,Corporate,2015,1458,25.7
+distribution_channel,TA/TO,2016,46453,39.9
+distribution_channel,TA/TO,2015,17725,41.0
+distribution_channel,Direct,All,14610,17.5
+distribution_channel,TA/TO,All,97750,41.1
+distribution_channel,Corporate,All,6651,22.1
+deposit_type,No Deposit,2016,49698,27.4
+deposit_type,Non Refund,2016,6794,98.9
+deposit_type,Non Refund,2017,4126,99.8
+deposit_type,No Deposit,2017,36466,31.8
+deposit_type,Non Refund,2015,3667,99.8
+deposit_type,No Deposit,2015,18296,24.5
+deposit_type,Non Refund,All,14587,99.4
+deposit_type,No Deposit,All,104460,28.4
+market_segment,Complementary,2016,357,12.3
+market_segment,Corporate,2015,1167,18.8
+market_segment,Corporate,2017,1558,25.5
+market_segment,Online TA,2015,6159,26.7
+market_segment,Offline TA/TO,2015,6073,34.0
+market_segment,Direct,2016,5650,15.3
+market_segment,Corporate,2016,2557,14.6
+market_segment,Groups,2016,7853,61.8
+market_segment,Groups,2015,6092,63.1
+market_segment,Direct,2015,2310,15.2
+market_segment,Online TA,2016,27628,35.6
+market_segment,Offline TA/TO,2016,12451,34.7
+market_segment,Online TA,2017,22621,40.9
+market_segment,Offline TA/TO,2017,5658,33.8
+market_segment,Complementary,2017,207,14.5
+market_segment,Groups,2017,5845,58.2
+market_segment,Direct,2017,4622,15.5
+market_segment,Corporate,All,5282,18.8
+market_segment,Direct,All,12582,15.4
+market_segment,Offline TA/TO,All,24182,34.3
+market_segment,Online TA,All,56408,36.8
+market_segment,Groups,All,19790,61.1
+market_segment,Complementary,All,728,12.2
+market_segment,Aviation,All,235,22.1
+hotel,Resort Hotel,2016,18564,26.5
+hotel,Resort Hotel,2017,13173,30.8
+hotel,City Hotel,2015,13658,44.0
+hotel,City Hotel,2016,38059,40.5
+hotel,Resort Hotel,2015,8309,25.7
+hotel,City Hotel,2017,27446,42.6
+hotel,Resort Hotel,All,40046,27.8
+hotel,City Hotel,All,79163,41.8
+customer_type,Transient-Party,2015,7704,37.3
+customer_type,Transient-Party,2017,6004,17.2
+customer_type,Contract,2016,756,16.4
+customer_type,Contract,2015,2654,40.0
+customer_type,Transient,2017,33735,43.3
+customer_type,Group,2017,218,6.4
+customer_type,Transient-Party,2016,11379,21.8
+customer_type,Transient,2016,44323,40.0
+customer_type,Transient,2015,11418,36.5
+customer_type,Contract,2017,662,11.6
+customer_type,Transient,All,89476,40.8
+customer_type,Transient-Party,All,25087,25.5
+customer_type,Group,All,574,10.1
+customer_type,Contract,All,4072,31.0

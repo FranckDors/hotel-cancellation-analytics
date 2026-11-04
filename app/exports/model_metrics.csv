@@ -1,0 +1,8 @@
+model,accuracy,precision,recall,f1,roc_auc
+Baseline: predict nobody cancels,0.613,,0.0,0.0,0.5
+Rule: no deposit and lead > 100 days,0.537,0.397,0.38,0.388,
+RF base (booking-time features),0.744,0.833,0.425,0.563,0.838
+"RF base, Non Refund rows removed",0.716,0.662,0.219,0.329,0.782
+RF + special requests,0.767,0.791,0.54,0.642,0.852
+"RF + parking + booking changes (LEAKY, do not use)",0.779,0.807,0.566,0.665,0.867
+RF final (no prior-booking fields),0.744,0.816,0.437,0.569,0.836
