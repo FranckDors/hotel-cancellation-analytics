@@ -32,24 +32,22 @@ These patterns are associations in historical data, not proven causes. Any inter
 - **After cleaning:** 119,209 bookings. I removed 181 rows with impossible values (zero guests, negative prices, or missing key fields).
 
 ## Pipeline
-
 ```mermaid
 flowchart LR
-  A[Public CSV] --> B[raw: untouched text]
-  B --> C[staging: typed with problem flags]
-  C --> D[staging: clean rows]
-  D --> E[mart: flags and agent summary]
-  C --> Q[dq_results log]
+  A["Public CSV"] --> B["raw: untouched text"]
+  B --> C["staging: typed with problem flags"]
+  C --> D["staging: clean rows"]
+  D --> E["mart: flags and agent summary"]
+  C --> Q["dq_results log"]
   D --> Q
-  E --> F[Driver analysis]
-  E --> G[Random Forest model]
-  E --> H[Agent segments]
-  F --> I[CSV exports]
+  E --> F["Driver analysis"]
+  E --> G["Random Forest model"]
+  E --> H["Agent segments"]
+  F --> I["CSV exports"]
   G --> I
   H --> I
-  I --> J[Streamlit dashboard]
+  I --> J["Streamlit dashboard"]
 ```
-
 - **raw:** the file loaded as text, exactly as downloaded. Never edited.
 - **staging:** proper data types plus a flag on each problem row, then a clean table with the bad rows removed. Row counts are reconciled between layers.
 - **mart:** analytics-ready tables with business-rule flags (for example, `is_long_lead_booking`) and an agent summary.
