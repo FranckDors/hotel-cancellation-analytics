@@ -99,9 +99,23 @@ K-means grouped the 84 agents with 100+ bookings using behavior only (volume, le
 
 ## Dashboard
 
-Four pages: overview and drivers, agent lookup, segments, and model and data quality.
+Four pages:
 
-![Segments page](docs/screenshots/3_segments.png)
+**1. Overview and drivers**
+
+![Overview and drivers](docs/screenshots/Screenshot%202026-11-04%20173535.png)
+
+**2. Agent lookup**
+
+![Agent lookup](docs/screenshots/Screenshot%202026-11-04%20173544.png)
+
+**3. Agent segments**
+
+![Agent segments](docs/screenshots/Screenshot%202026-11-04%20173555.png)
+
+**4. Model and data quality**
+
+![Model and data quality](docs/screenshots/Screenshot%202026-11-04%20173652.png)
 
 ## Limitations
 
